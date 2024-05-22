@@ -1,0 +1,6 @@
+ Rscript createSparseGRM.R       \
+     --plinkFile=/ebs1/users/dongjiaqi/project/createGRM/simu_geno \
+     --nThreads=4  \
+     --outputPrefix=/ebs1/users/dongjiaqi/project/createGRM/sparseGRM\
+     --numRandomMarkerforSparseKin=100      \
+     --relatednessCutoff=0.125
